@@ -205,7 +205,19 @@
                     <div class="project-info">
                         <h3>Cardiac Lead Design</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            In order to understand the complex input and output
+space for cardiac lead design, we implemented an instance
+comparison tool called Bento Box. This tool allows users to
+interactively explore and compare spatially relevant features.
+Bento Box is a virtual reality visualization and 3D user interface technique for comparative analysis of data ensembles, such as this set of
+10 time-varying simulations of blood flow around a
+cardiac lead in the right atrium of the heart. Each
+column shows a simulation with different parameters, here varying the length and stiffness of the
+lead. Each row shows a different view of the data.
+The top row is a zoomed-out overview. Users add
+additional rows of complementary, zoomed-in views
+during analysis for memory intensive fluid-structure interaction simulations
+in virtual reality.
                         </p>
                         <!--a href="#">View Project</a-->
                     </div>
@@ -215,13 +227,6 @@
                         <hr>
 
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/gn8bo8TgCHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                        <h4>Testing </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        
-
-                         <h4>Testing </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                     <button class="accordion">Project Details</button>
                     <!-- End .project-info -->
@@ -236,8 +241,15 @@
                     <div class="project-info">
                         <h3>Particle Flow</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
+                             Visualizing complex fluid flow in virtual reality (VR)  is a
+  necessary part of state-of-the-art climate study, physical system
+  design, and biomechanical engineering.  However, the most effective
+  way to support real-time advection and rendering of hundreds of
+  thousands of multi-dimensional particles on multiple high-framerate
+  stereo displays remains an open challenge. Particle Flow is particle
+  advection and rendering system for addressing this challenge in the
+  context of current graphics hardware.  
+</p>
                         <a href="https://github.com/dtorban/ParticleFlow" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
@@ -248,13 +260,29 @@
 
 
 
-                        <h4>Testing </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>
+We drive a 4-wall Cave VR
+  environment from a single computer with multiple graphics cards, and
+  we explore the potential of hardware configurations, which can
+  include both traditional graphics processing units (GPUs) and
+  general-purpose GPUs, for scientific visualization.  
+                        </p>
                         
 
-                         <h4>Testing </h4>
                         <img style="position:relative; float:right;" src="images/part-flow-heart.png" width="50%"> 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>The approach
+  uses a GPU-based implementation of 4th order Runga-Kutta integration
+  to update the space-time state of each particle as it moves through
+  vector fields of interest to scientists, typically pre-computed with
+  offline high-resolution simulations.  The particles are then
+  displayed using GPU shader programs that support interactive
+  head-tracked stereoscopic rendering in our 4-wall Cave driven by 8
+  projectors attached to a single computer with 4 graphics cards.  We
+  report upon the feasibility of this approach for use in exploring a
+  large-scale computational simulation of a hurricane with
+  visualizations that include hundreds of thousands of animated
+  particles.
+</p>
                     </div>
                     <button class="accordion">Project Details</button>
                 </div>
@@ -268,7 +296,10 @@
                     <div class="project-info">
                         <h3>Sandbox Graphics Engine</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            In order to interact with visualize large simulation data sets with state of the art in graphics technology I created the Sandbox Graphics Engine.   It focuses on high performance graphics rendering accross multiple shared contexts and devices.  The Sandbox is an entity component framework writen in C++ using Vulkan and OpenGL.
+                        </p>
+                        <p>
+                            The ultimate goal of this project is to enable rendering on multiple immersive display types (Desktop / Web / Cave / Head mounted display) while efficiently minimizing data transfer and flexible interaction.
                         </p>
                         <a href="https://github.com/dtorban/sandbox" target="_blank">View Project</a>
                     </div>
