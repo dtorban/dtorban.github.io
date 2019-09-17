@@ -77,7 +77,7 @@
                 <div class="col-md-8">
                     <h3>Research</h3>
                     <p>
-                        <strong>I am a 5th year PhD student studying computer science at the University of Minnesota</strong>.  My advisor is <a href="https://www.danielkeefe.net/">Daniel Keefe</a> who leads the <a href="http://ivlab.cs.umn.edu/">Interactive Visualization Lab</a>.
+                        <strong>I am a 5th year PhD student studying computer science at the University of Minnesota</strong>.  My advisor is <a href="https://www.danielkeefe.net/" target="_blank">Daniel Keefe</a> who leads the <a href="http://ivlab.cs.umn.edu/" target="_blank">Interactive Visualization Lab</a>.
                         My research combines interaction techniques from the scientific visualization and visual analytics disciplines to study high-dimensional parameter spaces.  I like to ask the question:
                     </p><br>
                     <p style="text-align: center">
@@ -120,9 +120,12 @@
                     <div class="project-info">
                         <h3>Cancer Cell Migration</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            This project works towards understanding which properties of a cell and its environment are involved in cell movement.  Cancer cell migration is a problem that is both high dimensional (i.e. has many variables like stiffness, motors, clutches, traction forces, actin flow patterns, etc...) and has complex spatial temporal relationships (i.e. cell body, actin, and arms).
                         </p>
-                        <a href="#">View Project</a>
+                        <p>
+                            Using the c++ version of the <a href="https://www.nature.com/articles/ncomms15313">Cell Migration Simulator</a>, developed in collaboration with the <a href="http://ivlab.cs.umn.edu/" target="_blank">interactive visualization lab</a> and <a href="http://oddelab.umn.edu/" target="_blank">David Odde's biomedical engineering lab</a>, we are investigating how to explore parameter relationships.  The parameter space is large and nonlinear with complex spatial features.
+                        </p>
+                        <!--a href="#">View Project</a-->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -136,7 +139,10 @@
                     <div class="project-info">
                         <h3>Shock Physics</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            In collaboration with the <a href="https://datascience.dsscale.org/" target="_blank">Data Science at Scale</a> team at <a href="https://lanl.gov/" target="_blank">Los Alamos National Lab</a>, I worked for two summers developing interactive visualization techniques for understanding the high-dimensional space in shock physics applications.
+                        </p>
+                        <p>
+                            Shock physics is a research area in material science that uses high powered gas guns or lasers to shock a material of interest.  The resulting elastic and fluid reactions provide detailed information about the strength of materials, giving insight into physics and the posibilty of creating new material phases (e.g. stronger materials).
                         </p>
                         <a href="https://github.com/cinemascience/cinema_quest" target="_blank">View Project</a>
 
@@ -149,11 +155,14 @@
 
                             <iframe src="https://player.vimeo.com/video/289787986" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-                            <h4>Testing </h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h3>Drag and Track (a.k.a Cinema: Quest)</h3>
+                            <p><a href="http://ivlab.cs.umn.edu/generated/pub-Orban-2018-DragAndTrack.php" target="_blank">Drag and Track</a> is a technique for contextualizing instances of an ensemble (i.e. understanding a simulation's relationship to set of simulations).  This technique uses direct manipulation, prediction, and search capabilities, allowing users to intuitively explore relationships between inputs and outputs by simply manipulating curves and points. 
+                            <img style="position:relative; float:right;" src="images/vel_curve.png" width="25%">  For example, in the shock physics application, there is a feature called the elsatic plateau.  A user can simply drag the elastic plateu and see how the other input and output values change.  It also provides uncertainty visualization to get a better view of whether the prediction should be trusted in the context of the ensemble.</p>
 
-                             <h4>Testing </h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <img src="images/dt_direct.png" width="75%">
+
+                            <h3>Cinema:Bandit </h3>
+                            <p><a href="https://github.com/cinemascience/cinema_bandit" target="_blank">Cinema: Bandit</a> explores shock physics experimental data using parallel coordintate plots and multiple linked views.  This allows material scientists to view parameter relationship along side x-ray diffraction images, superimposed velocimetry curves, and integration curves.  By modifying the <a href="https://github.com/cinemascience/cinema_components" target="_blank">Cinema Component</a> infrustructure, we were able to integrate Cinema: Bandit with the <a href="https://www6.slac.stanford.edu/" target="_blank">Stanford Linear Accelerator (SLAC)</a> using the LCLS psana system.  As experiments were conducted, the data was automatically processed and results were streamed into Cinema:Bandit.
                     </div>
                     <button class="accordion">Project Details</button>
 
@@ -263,7 +272,10 @@
                     <div class="project-info">
                         <h3>Cloth Simulation</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            The purpose of my cloth simulation was to compare the features of multiple simulation integration schemes.  In this solution I implemented and investigated explicit Euler, simi-implicit Euler, explicit Runga-Kutta 4th Order (RK4), and implicit backwards Euler.  implicit backwards Euler was definitely the most stable.  Surprisingly, simi-implicit Euler, in terms of stability, performed almost as well as RK4. 
+                        </p>
+                        <p>
+                            As a feature, I also explored interaction techniques in the HTC Vive using <a href="https://github.com/MinVR/MinVR" target="_blank">MinVR</a>, an open source C++ VR library that I helped develop.  Using a virtual sphere as a cursor, it was easy to manipulate the cloth through sphere collisions.
                         </p>
                         <a href="https://github.com/dtorban/ClothSim" target="_blank">View Project</a>
                     </div>
